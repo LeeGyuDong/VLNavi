@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "645461115146",
+    "firebase_url": "https://visible-light-navigation.firebaseio.com",
+    "project_id": "visible-light-navigation",
+    "storage_bucket": "visible-light-navigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645461115146:android:f69798aafe126639",
+        "android_client_info": {
+          "package_name": "barreto.alessandro.feedlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645461115146-ak9dlvn1fdp5qjpr455f3djhs8245j3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barreto.alessandro.feedlist",
+            "certificate_hash": "b9e60d40da74f31324b256c67953df07c9fe3172"
+          }
+        },
+        {
+          "client_id": "645461115146-u34daa4bspi872k00mkevevmv0fm69td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barreto.alessandro.feedlist",
+            "certificate_hash": "7e62bc22161953f7d7c773de4ec778faaf90a0b3"
+          }
+        },
+        {
+          "client_id": "645461115146-un6hjpbsal6dhteqm81k5losar0kk2nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barreto.alessandro.feedlist",
+            "certificate_hash": "455ad1abab124369c07df54d3ef4e2b9c76f3e2b"
+          }
+        },
+        {
+          "client_id": "645461115146-ut5tbvu13f1ngnjk486hqcctcuhhuet2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg2q6HHDi-ZirWEI3biLWRD1wsIc6QA70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645461115146-ut5tbvu13f1ngnjk486hqcctcuhhuet2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

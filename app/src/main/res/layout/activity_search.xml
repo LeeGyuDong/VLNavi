@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="barreto.alessandro.feedlist.view.activity.SearchActivity"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:hint="목적지를 입력하세요."
+        android:imeOptions="actionSearch"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="타마린드 (쌀국수)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="덕인관 (떡갈비)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="남자 화장실"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="에스컬레이터"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="꼴라주 (프렌치 카페)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="히바린 (카츠/누들)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="아오키 (일식)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="호경전 (모던 차이니즈 푸드)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="여자 화장실"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="밀화 (샤브샤브/전골)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="평양면옥 (냉면/불고기)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="화니 (한정식/비빔밥)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="동쪽 엘리베이터"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="서쪽 엘리베이터"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/com_facebook_likeview_text_color"
+                    android:text="살바토레쿠오모 (이탈리안 피자)"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_light_background" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

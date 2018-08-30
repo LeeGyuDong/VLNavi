@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VL Navi</string>
+
+    <string name="text">string/text</string>
+
+    <string name="facebook_app_id">1695663440732073</string>
+
+    <string name="text_2">string/text_2</string>
+
+    <string name="map">string/map</string>
+    <string name="title_activity_zoom_in_zoom_out">ZoomInZoomOut</string>>
+
+</resources>
